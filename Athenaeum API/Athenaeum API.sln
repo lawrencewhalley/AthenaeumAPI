@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Athenaeum API", "Athenaeum API\Athenaeum API.csproj", "{39FD8A19-AFA2-4236-B9FD-A29F4134B5BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AthenaeumAPI", "Athenaeum API\AthenaeumAPI.csproj", "{39FD8A19-AFA2-4236-B9FD-A29F4134B5BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
