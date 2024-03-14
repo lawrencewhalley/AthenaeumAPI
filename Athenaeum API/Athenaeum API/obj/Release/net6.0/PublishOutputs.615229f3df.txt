@@ -1,0 +1,11 @@
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\PubTmp\Out\Athenaeum API.exe
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\PubTmp\Out\appsettings.json
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\PubTmp\Out\Athenaeum API.dll
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\PubTmp\Out\Athenaeum API.deps.json
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\PubTmp\Out\Athenaeum API.runtimeconfig.json
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\PubTmp\Out\Athenaeum API.pdb
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
