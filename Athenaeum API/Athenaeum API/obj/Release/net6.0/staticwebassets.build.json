@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "6tBnOK9K2z3QVHzMPufLPWGVxhx/uZKG7F1u2m7tSuk=",
-  "Source": "Athenaeum API",
-  "BasePath": "_content/Athenaeum API",
+  "Hash": "P9KtMte85iaNVycuFVy0Gbx4nbPW09pwCh57ufv78DM=",
+  "Source": "AthenaeumAPI",
+  "BasePath": "_content/AthenaeumAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

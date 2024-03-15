@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>V:\Athenaeum API\PublishAPIFolder</_PublishTargetUrl>
-    <History>True|2024-03-14T20:06:03.5065700Z;</History>
+    <History>True|2024-03-15T10:19:46.6739141Z;True|2024-03-14T20:06:03.5065700+00:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
