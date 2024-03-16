@@ -8,11 +8,11 @@ namespace Athenaeum_API.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class GenericController : ControllerBase
     {
         private readonly APIContext context;
 
-        public UserController(APIContext context)
+        public GenericController(APIContext context)
         {
             this.context = context;
         }
@@ -21,6 +21,12 @@ namespace Athenaeum_API.Controllers
         public JsonResult CreateEdit(User user)
         {
 
+            var FoundUser = context.Users.Any(x => x.USERNAME == user.USERNAME && x.PASSWORD == user.PASSWORD);
+
+            if (FoundUser != false)
+            {
+                return new JsonResult(new { message = "User already Exists" }) { StatusCode = 500 };
+            }
 
             context.Users.Add(user);
 
@@ -41,10 +47,11 @@ namespace Athenaeum_API.Controllers
         public JsonResult LoginRequest([FromQuery]string username, string password)
         {
             
-            var FoundUser = context.Users.First(x => x.USERNAME == username && x.PASSWORD == password);
+            var UserExists = context.Users.Any(x => x.USERNAME == username && x.PASSWORD == password);
 
-            if (FoundUser != null)
+            if (UserExists == true)
             {
+                var FoundUser = context.Users.First(x => x.USERNAME == username && x.PASSWORD == password);
 
                 FoundUser.LAST_LOGIN = DateTime.Now;
 
@@ -60,6 +67,7 @@ namespace Athenaeum_API.Controllers
 
             
         }
+
 
     }
 }
