@@ -2,6 +2,7 @@
 using Athenaeum_API.Models;
 using Athenaeum_API.Data;
 using System.Net.Mime;
+using System.IO.Compression;
 
 namespace Athenaeum_API.Controllers
 {
@@ -86,7 +87,8 @@ namespace Athenaeum_API.Controllers
                     MOVIE_NAME = movieName,
                     MOVIE_DESC = movieDescription,
                     MOVIE_POSTER_PATH = Path.Combine(MoviePosterFolderPath, moviePoster.FileName),
-                    MOVIE_FILE_PATH = Path.Combine(MovieFilesFolderPath, movieFile.FileName)
+                    MOVIE_FILE_PATH = Path.Combine(MovieFilesFolderPath, movieFile.FileName),
+                    MOVIE_FILE_NAME = movieFile.FileName
                 };
 
                 var MovieExists = context.Movies.Any(x => x.MOVIE_NAME == Movie.MOVIE_NAME &&
@@ -153,6 +155,7 @@ namespace Athenaeum_API.Controllers
                     var movieData = new
                     {
                         MovieName = movie.MOVIE_NAME,
+                        MovieID = movie.MOVIE_FILE_NAME
                     };
 
                     moviesData.Add(movieData);
@@ -175,16 +178,16 @@ namespace Athenaeum_API.Controllers
                     .Select(x => x.MOVIE_POSTER_PATH)
                     .First();
 
-                    byte[] imageData;
+                byte[] imageData;
 
-                    using (var fileStream = new FileStream(moviePosterPath, FileMode.Open, FileAccess.Read, FileShare.Read))
+                using (var fileStream = new FileStream(moviePosterPath, FileMode.Open, FileAccess.Read, FileShare.Read))
+                {
+                    using (var memoryStream = new MemoryStream())
                     {
-                        using (var memoryStream = new MemoryStream())
-                        {
-                            fileStream.CopyTo(memoryStream);
-                            imageData = memoryStream.ToArray();
-                        }
-                    }                
+                        fileStream.CopyTo(memoryStream);
+                        imageData = memoryStream.ToArray();
+                    }
+                }
 
                 return new JsonResult(imageData);
             }
