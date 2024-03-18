@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "me2xRrtSL33C8IqF86JlznvPB97K8TN675oHK1hFw5nXDclHbVErWHXxlpCFjawY61+0xUeSNi9lNK9XU/2m1g==",
+  "dgSpecHash": "NP0JGTQ/WZIpWgds6dDTMRQNfLwxj+7EvD8wyuZTNMTXdsKK8UK6AZToEx4dvdnt3Z5SaiHJYd7CB7RC8amRyA==",
   "success": true,
-  "projectFilePath": "V:\\Athenaeum API\\Athenaeum API\\Athenaeum API\\AthenaeumAPI.csproj",
+  "projectFilePath": "V:\\Athenaeum API\\AthenaeumApi\\Athenaeum API\\AthenaeumAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lawre\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\lawre\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

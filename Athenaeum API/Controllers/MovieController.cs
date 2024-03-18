@@ -153,6 +153,7 @@ namespace Athenaeum_API.Controllers
                     var movieData = new
                     {
                         MovieName = movie.MOVIE_NAME,
+                        MovieID = movie.MOVIE_KEY,
                     };
 
                     moviesData.Add(movieData);
