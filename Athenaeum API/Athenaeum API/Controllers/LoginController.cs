@@ -1,18 +1,16 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Athenaeum_API.Models;
 using Athenaeum_API.Data;
-using System.Drawing.Text;
 
 namespace Athenaeum_API.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
-    public class GenericController : ControllerBase
+    public class LoginController : ControllerBase
     {
         private readonly APIContext context;
 
-        public GenericController(APIContext context)
+        public LoginController(APIContext context)
         {
             this.context = context;
         }
@@ -40,7 +38,6 @@ namespace Athenaeum_API.Controllers
         {
             var result = context.Users.ToList();
 
-
             return new JsonResult(Ok(result));
         }
         [HttpGet("/LoginRequest")]
@@ -58,14 +55,13 @@ namespace Athenaeum_API.Controllers
                 context.SaveChanges();
 
                 return new JsonResult(Ok(true));
-
             }
             else
             {
-            return new JsonResult(Ok(false));
-            }
 
-            
+                return new JsonResult(Ok(false));
+
+            }
         }
 
 

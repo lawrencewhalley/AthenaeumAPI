@@ -8,6 +8,7 @@ namespace Athenaeum_API.Data
         public DbSet<User> Users { get; set; }
 
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Config> Config { get; set; }
 
         public APIContext(DbContextOptions<APIContext> options)
             : base(options)
