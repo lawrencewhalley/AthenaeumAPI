@@ -1,0 +1,27 @@
+V:\Athenaeum API\Athenaeum API\Athenaeum API\bin\Release\net6.0\appsettings.Development.json
+V:\Athenaeum API\Athenaeum API\Athenaeum API\bin\Release\net6.0\appsettings.json
+V:\Athenaeum API\Athenaeum API\Athenaeum API\bin\Release\net6.0\Athenaeum API.exe
+V:\Athenaeum API\Athenaeum API\Athenaeum API\bin\Release\net6.0\Athenaeum API.deps.json
+V:\Athenaeum API\Athenaeum API\Athenaeum API\bin\Release\net6.0\Athenaeum API.runtimeconfig.json
+V:\Athenaeum API\Athenaeum API\Athenaeum API\bin\Release\net6.0\Athenaeum API.dll
+V:\Athenaeum API\Athenaeum API\Athenaeum API\bin\Release\net6.0\Athenaeum API.pdb
+V:\Athenaeum API\Athenaeum API\Athenaeum API\bin\Release\net6.0\Microsoft.OpenApi.dll
+V:\Athenaeum API\Athenaeum API\Athenaeum API\bin\Release\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+V:\Athenaeum API\Athenaeum API\Athenaeum API\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+V:\Athenaeum API\Athenaeum API\Athenaeum API\bin\Release\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\Athenaeum API.csproj.AssemblyReference.cache
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\Athenaeum API.GeneratedMSBuildEditorConfig.editorconfig
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\Athenaeum API.AssemblyInfoInputs.cache
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\Athenaeum API.AssemblyInfo.cs
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\Athenaeum API.csproj.CoreCompileInputs.cache
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\Athenaeum API.MvcApplicationPartsAssemblyInfo.cs
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\Athenaeum API.MvcApplicationPartsAssemblyInfo.cache
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\staticwebassets.build.json
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\staticwebassets.development.json
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\scopedcss\bundle\Athenaeum API.styles.css
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\Athenaeum API.csproj.CopyComplete
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\Athenaeum API.dll
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\refint\Athenaeum API.dll
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\Athenaeum API.pdb
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\Athenaeum API.genruntimeconfig.cache
+V:\Athenaeum API\Athenaeum API\Athenaeum API\obj\Release\net6.0\ref\Athenaeum API.dll
