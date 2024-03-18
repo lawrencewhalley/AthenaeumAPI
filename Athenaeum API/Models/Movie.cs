@@ -15,6 +15,7 @@ namespace Athenaeum_API.Models
         public string ?MOVIE_DESC { get; set; }
         public string ?MOVIE_POSTER_PATH { get; set; }
         public string MOVIE_FILE_PATH { get; set; }
+        public string MOVIE_FILE_NAME { get; set; }
 
     }
 }
